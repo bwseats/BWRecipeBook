@@ -77,6 +77,16 @@ namespace BWRecipeBook.Areas.Identity.Pages.Account
             /// </summary>
             [Required]
             [EmailAddress]
+            [Display(Name = "First Name")]
+            public string FirstName { get; set; }
+            
+            [Required]
+            [EmailAddress]
+            [Display(Name = "Last Name")]
+            public string LastName { get; set; }
+            
+            [Required]
+            [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
